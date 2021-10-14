@@ -17,8 +17,8 @@
     <div class="top-bar">
         <div class="container">
             <div class="col-12 ml-4 ml-lg-1 text-right">
-                <a role="button" class="btn btn-link" href="tel:1-206-555-1234"><i class="fa fa-phone fa-lg text-light"></i></a>
-                <a role="button" class="btn btn-link" href="mailto:example@domain.com"><i class="fa fa-envelope fa-lg text-light"></i></a>
+                <a role="button" class="btn btn-link" href="tel:1-206-555-1234"><i class="fa fa-phone fa-lg text-light" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Call us at <br/> <strong>1-206-555-1234</strong> "></i></a>
+                <a role="button" class="btn btn-link" href="mailto:example@domain.com"><i class="fa fa-envelope fa-lg text-light" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Text us <br/> <strong>examp@domain.com</strong> "></i></a>
             </div>
         </div>
     </div>
@@ -135,5 +135,11 @@
     <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 </body>
 </html>
