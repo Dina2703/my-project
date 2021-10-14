@@ -34,8 +34,8 @@ span.brand {
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: .1rem;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    z-index: 1;
+    /* box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .8);
+    z-index: 1;  */
 }
 
 .nav-item {
@@ -49,4 +49,54 @@ span.brand {
 .nav-link.active,
 .nav-link:hover {
     color: rgb(151, 82, 43)!important;
+}
+
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .8);
+    z-index: 1;
+}
+
+.carousel-inner {
+    max-height: 40rem!important;
+}
+
+.carousel-item {
+    transition: transform 1.2s ease;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    text-transform: uppercase;
+}
+
+.bg-custom {
+    background-color: rgba(68, 57, 27, .6);
+    border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    text-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 1);;
+}
+.border-info{
+    border-top: .2rem solid rgb(50, 168, 214)!important;
+}
+.carousel-caption h3 {
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 1);;
+}
+
+.btn-md {
+    text-transform: uppercase;
+    border-radius: 0;
+    border-width: medium;
+}
+.btn-secondary {
+    background-color: rgb(102, 114, 111);
+    border: .05rem solid rgb(83, 99, 94);
+}
+.btn-info {
+    background-color: rgb(49, 119, 134);
+    border: .05rem solid rgb(17, 85, 100);
 }
