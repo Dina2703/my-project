@@ -100,3 +100,15 @@ span.brand {
     background-color: rgb(49, 119, 134);
     border: .05rem solid rgb(17, 85, 100);
 }
+
+.card {
+    border: none;
+}
+
+.myColor {
+    background-color: rgb(175, 161, 161);
+    color: aliceblue;
+}
+
+
+
