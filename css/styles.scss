@@ -1,11 +1,14 @@
+$myFont: 'Montserrat', sans-serif;
+
+
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $myFont;
     color: #616971;
 }
 
 .top-bar {
-    background-color: rgb(59, 47, 47);
+    background-color: rgb(136, 81, 81);
     height: 2.5rem;
 }
 .brand {
@@ -100,10 +103,3 @@ span.brand {
     background-color: rgb(49, 119, 134);
     border: .05rem solid rgb(17, 85, 100);
 }
-
-
-
-
-
-
-
