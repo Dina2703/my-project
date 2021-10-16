@@ -1,14 +1,18 @@
 $myFont: 'Montserrat', sans-serif;
+$primary: rgb(184, 212, 155);
+
+
 
 
 body {
     overflow-x: hidden;
     font-family: $myFont;
-    color: #616971;
+    color: #424e5a;
+    background-color: aliceblue;
 }
 
 .top-bar {
-    background-color: rgb(136, 81, 81);
+    background-color: rgb(159, 182, 135);
     height: 2.5rem;
 }
 .brand {
@@ -38,6 +42,7 @@ span.brand {
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: .1rem;
+    background-color: $primary;
     /* box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .8);
     z-index: 1;  */
 }
@@ -46,7 +51,7 @@ span.brand {
     padding: .5rem; 
 }
 
-.nav-link {
+.nav-link, .brand {
     color: #5b5555!important;
 }
 
@@ -54,6 +59,29 @@ span.brand {
 .nav-link:hover {
     color: rgb(151, 82, 43)!important;
 }
+.nav-link.active {
+    text-decoration: underline;
+}
+
+.row-content {
+
+    min-height: 200px; 
+}
+
+.media {
+    
+    h3 {
+        letter-spacing: .8rem;
+    }
+    p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+    img {
+        border-radius: 15% 0;
+    }
+}
+
 
 #carousel {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
@@ -100,4 +128,9 @@ span.brand {
 .btn-info {
     background-color: rgb(49, 119, 134);
     border: .05rem solid rgb(17, 85, 100);
+}
+
+.site-footer{
+    background-color: $primary;
+
 }
