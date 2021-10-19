@@ -142,5 +142,26 @@ span.brand {
 
 }
 
+div#sideNav {
+    
+    li {
+        padding: .5rem 0;
+    
+        h5 {
+            color: #5b5555;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            color: rgb(151, 82, 43);
+            &:hover {
+                padding: 5px;
+                background-color: rgb(228, 232, 224);
+            }
+        }
 
+    }
+}
 
