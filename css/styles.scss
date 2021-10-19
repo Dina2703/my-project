@@ -1,6 +1,8 @@
+
+
+
 $myFont: 'Montserrat', sans-serif;
 $primary: rgb(184, 212, 155);
-
 
 
 
@@ -53,14 +55,17 @@ span.brand {
     padding: .5rem; 
 }
 
-.nav-link, .brand {
-    color: #5b5555!important;
+.brand {
+    color: #5b5555;
 }
 
 .nav-link.active,
 .nav-link:hover {
     color: rgb(151, 82, 43)!important;
 }
+
+
+
 .nav-link.active {
     text-decoration: underline;
 }
@@ -136,3 +141,6 @@ span.brand {
     background-color: $primary;
 
 }
+
+
+
