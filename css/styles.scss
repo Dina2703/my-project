@@ -89,6 +89,9 @@ span.brand {
     }
 }
 
+.custom-shadow {
+    box-shadow: 0 .5rem .2rem rgba(163, 173, 166, 0.5);
+}
 
 #carousel {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
@@ -100,11 +103,18 @@ span.brand {
     transition: transform 1.2s ease;
 }
 
-.carousel-caption {
+#main.carousel-caption {
     position: absolute;
     top: 30%;
     text-transform: uppercase;
 }
+#menu.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: rgb(181, 201, 181);
+}
+
 
 .bg-custom {
     background-color: rgba(68, 57, 27, .6);
@@ -113,7 +123,7 @@ span.brand {
 
 .carousel-caption h1 {
     font-size: 3rem;
-    text-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 1);;
+    text-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 1);
 }
 .border-info{
     border-top: .2rem solid rgb(50, 168, 214)!important;
@@ -173,3 +183,28 @@ div {
     }
 }
 
+div.menu-section {
+    a {
+        letter-spacing: .08rem;
+    }
+}
+
+#hotDrinkItems {
+    padding: 0 25px;
+    background: rgb(223, 238, 222);
+    display: none;
+}
+
+#coldDrinkItems {
+    padding: 0 25px;
+    background: rgb(223, 238, 222);
+    display: none;
+}
+
+.carousel {
+    img {
+        width: auto;
+        height: 30rem;
+        max-height: 30rem;
+    }
+}
