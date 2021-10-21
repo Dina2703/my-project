@@ -59,7 +59,9 @@ span.brand {
 #active.nav-link {
     color: rgb(151, 82, 43);
 }
-
+.nav-link:hover {
+    color: rgb(151, 82, 43)!important;
+}
 
 
 .nav-link.active {
@@ -206,7 +208,7 @@ div.menu-section {
 #mainPic {
     max-width: 100%;
     height: auto;
-    box-shadow: 1rem .5rem .2rem rgba(163, 173, 166, 0.5);
+    box-shadow: $custom-shadow;
 }
 
 .relative {
@@ -244,7 +246,26 @@ div.menu-section {
         letter-spacing: .1em;
     }
 }
-.card-link {
-    background-color: $primary;
-    color: $color-link;
+div.items-card {
+    font-weight: 300;
+    font-size: 1.1rem;
+
+    .card {
+    background-color: rgb(225, 235, 225);
+    transition: all 0.5s;
 }
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+
+    .card-link {
+        background-color: $primary;
+        color: $color-link;
+    }
+}
+
+
+    
+
+
