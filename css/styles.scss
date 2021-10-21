@@ -248,7 +248,7 @@ div.menu-section {
 }
 div.items-card {
     font-weight: 300;
-    font-size: 1.1rem;
+    
 
     .card {
     background-color: rgb(225, 235, 225);
@@ -257,7 +257,17 @@ div.items-card {
     .card:hover {
         transform: scale(1.05);
     }
-
+    h4 {
+        font-family: cursive;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+        span {
+            font-size: 1.1em;
+            font-family: cursive;
+        }
+    }
 
     .card-link {
         background-color: $primary;
@@ -266,6 +276,6 @@ div.items-card {
 }
 
 
-    
+
 
 
