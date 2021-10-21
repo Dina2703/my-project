@@ -1,8 +1,5 @@
 
-
-
-$myFont: 'Montserrat', sans-serif;
-$primary: rgb(184, 212, 155);
+@import 'config';
 
 
 
@@ -59,9 +56,8 @@ span.brand {
     color: #5b5555;
 }
 
-.nav-link.active,
-.nav-link:hover {
-    color: rgb(151, 82, 43)!important;
+#active.nav-link {
+    color: rgb(151, 82, 43);
 }
 
 
