@@ -53,8 +53,68 @@
                 <li>Available for at least 8 months</li>
                 <li>A friendly disposition!</li>
             </ul>
-            <button>Apply</button>
+            <a role="button" id="modalButton" class="btn btn-secondary btn-lg">Apply!</a>
         </div>
+    </div>
+
+
+    <div id="modalForm" class="container m-4 modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Form</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group">
+                                <label for="numCampers" class="col-sm-6 col-form-label" >Number of Campers</label>
+                                <div class="col">
+                                    <select name="numCampers" id="numCampers" class="form-control">
+                                        <option selected disabled value="">Select...</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                <div class="col col-sm-6">
+                                <input type="date" class="form-control" id="date" name="date">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Campsite Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="siteType" id="siteTent" value="tent" checked> Tent
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRV" value="RV" > RV
+                                    </label>
+                                </div>
+                            </div>
+
+                        
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     
 

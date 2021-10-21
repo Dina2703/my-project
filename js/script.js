@@ -9,5 +9,10 @@ $(function() {
     }));
 });
 
+$(function() {
+    $('#modalButton').on("click", (function() {
+        $('#modalForm').modal('show')
+    }));
+});
 
 
