@@ -210,5 +210,27 @@ div.menu-section {
 #mainPic {
     max-width: 100%;
     height: auto;
-    box-shadow: 1rem .5rem .2rem rgba(163, 173, 166, 0.5)
+    box-shadow: 1rem .5rem .2rem rgba(163, 173, 166, 0.5);
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#customHiring {
+    background-color: rgb(235, 228, 220);
+    max-width: 50%;
+    width: 30rem;
+    position: absolute;
+    top: 10rem;
+    left: 15em;
+    
+}
+
+@media (max-width: 769px) {
+    #customHiring {
+        left: 2em;
+        transform: translate(0);
+    }
 }
