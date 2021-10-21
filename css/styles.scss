@@ -223,14 +223,15 @@ div.menu-section {
     max-width: 50%;
     width: 30rem;
     position: absolute;
-    top: 10rem;
+    top: 10em;
     left: 15em;
-    
+    font-size: 20px;
 }
 
 @media (max-width: 769px) {
     #customHiring {
         left: 2em;
-        transform: translate(0);
+        top: 5em;
+        font-size: 13px;
     }
 }
