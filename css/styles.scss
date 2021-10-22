@@ -246,9 +246,9 @@ div.menu-section {
         letter-spacing: .1em;
     }
 }
+
 div.items-card {
     font-weight: 300;
-    
 
     .card {
     background-color: rgb(225, 235, 225);
@@ -257,9 +257,7 @@ div.items-card {
     .card:hover {
         transform: scale(1.05);
     }
-    h4 {
-        
-    }
+
     p {
         padding: 0;
         margin: 0;
@@ -269,9 +267,14 @@ div.items-card {
         }
     }
 
-    .card-link {
+    a.card-link {
         background-color: $primary;
         color: $color-link;
+        transition: 0.2s;
+    }
+    a.card-link:hover {
+        background-color: rgb(60, 78, 60);
+        color: white;
     }
 }
 
