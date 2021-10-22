@@ -25,6 +25,8 @@ btnAdd.addEventListener('click', () => {
 });
 btnSubtract.addEventListener('click', () => {
     if(input.value === '0') {
-        input.value =='0'
-    } else input.value = parseInt(input.value) - 1;
+        input.value = '0';
+    } else 
+    input.value = parseInt(input.value) - 1;
 });
+
