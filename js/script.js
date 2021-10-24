@@ -30,3 +30,29 @@ $(function() {
 //     input.value = parseInt(input.value) - 1;
 // });
 
+let btnAdd = document.querySelector('#add');
+let btnSubtract = document.querySelector('#subtract');
+let input = document.querySelector('#orderInput');
+
+btnAdd.addEventListener('click', () => {
+    input.value = parseInt(input.value) + 1;
+});
+btnSubtract.addEventListener('click', () => {
+    if(input.value === '0') {
+        input.value = '0';
+    } else 
+    input.value = parseInt(input.value) - 1;
+});
+
+const add = document.querySelector('.add');
+const basket = document.querySelector('#basket');
+
+
+add.addEventListener('click', addNum);
+
+function addNum(){
+    basket.innerHTML ++;
+}
+
+
+

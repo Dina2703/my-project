@@ -280,10 +280,21 @@ div.items-card {
 
 #fixed-btn {
     position: fixed;
-    bottom: 40%;
-    right: 10%;
+    bottom: 50%;
+    right: 5%;
     background-color: $primary;
     box-shadow: 4px 4px 7px;
+}
+
+.fa-shopping-cart {
+    position: relative;
+    #basket {
+        position: absolute;
+        left: 17px;
+        bottom: 10px;
+        color: blue;
+        font-weight: 700;
+    }
 }
 
 

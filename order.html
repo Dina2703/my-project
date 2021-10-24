@@ -36,7 +36,7 @@
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a href="order.html" class="nav-link active" id="active">Order <i class="fa fa-shopping-cart "></i></a></li>
+                    <li class="nav-item"><a href="order.html" class="nav-link active" id="active">Order <i class="fa fa-shopping-cart "><span id="basket"></span></i></a></li>
                     <li class="nav-item"><a href="hire.html" class="nav-link ">Hiring</a></li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
                     <div class="card-body">
                         <p class="card-text">Caffee Latte</p>
                         <p><span>$ </span>2.00</p>
-                        <a role="button" class="card-link btn align-self-center btn-sm">order</a>
+                        <a role="button" class="card-link btn align-self-center btn-sm" data-toggle="modal" data-target="#orderModal2">order</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <div class="card-body mb-0">
                         <p class="card-text">House Coffee</p>
                         <p><span>$ </span>2.00</p>
-                        <a role="button" class="card-link btn  align-self-center btn-sm">order</a>
+                        <a role="button" class="card-link btn  align-self-center btn-sm" data-toggle="modal" data-target="#orderModal3">order</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     <div class="card-body">
                         <p class="card-text">Matcha Latte</p>
                         <p><span>$ </span>2.00</p>
-                        <a role="button" class="card-link btn align-self-center btn-sm">order</a>
+                        <a role="button" class="card-link btn align-self-center btn-sm" data-toggle="modal" data-target="#orderModal4">order</a>
                     </div>
                 </div>
             </div>
@@ -256,12 +256,13 @@
                 <input type="number" id="orderInput" value="0" min="0">
                 <button id="add" class="fa fa-plus"></button>
                 </div>
-                <button>Add</button>
+                <button class="add">Add</button>
                 
             </div>
             </div>
         </div>
     </div>
+    
 
 
 
